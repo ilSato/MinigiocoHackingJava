@@ -1,4 +1,4 @@
-//VERSIONE 1.0
+//VERSIONE 1.0 Completata
 
 import java.util.ArrayList;
 import java.util.Random;

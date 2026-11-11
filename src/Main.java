@@ -1,3 +1,5 @@
+//VERSIONE 1.0
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;

@@ -34,6 +34,11 @@ void main() {
     int trys = 4;
 
 
+    IO.println();
+
+    IO.println(" Welcome to STAR Star Industries And Robotic");
+
+    IO.println("   PASSWORDS REQUIRED");
 
     PrintWords(Words, Symbols);
 
@@ -109,7 +114,7 @@ public static void PrintTrys(int trys) {
 
     for(int j = 0; j < trys; j++){
 
-        IO.print("[]");
+        IO.print("█ ");
     }
 
     IO.println();
@@ -202,7 +207,7 @@ public static boolean CheckWin(boolean win, String input, String wordToWin){
         win = true;
 
         IO.println(" -- --GIOCO CONCLUSO-- --");
-        IO.println("   Vittoria");
+        IO.println("   Access Granted");
     }
 
     return win;
